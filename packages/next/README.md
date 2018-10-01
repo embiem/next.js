@@ -189,12 +189,13 @@ Please see the [styled-jsx documentation](https://www.npmjs.com/package/styled-j
     <b>Examples</b>
   </summary>
   <ul>
-    <li><a href="./examples/with-styled-components">Styled components</a></li>
-    <li><a href="./examples/with-styletron">Styletron</a></li>
-    <li><a href="./examples/with-glamor">Glamor</a></li>
-    <li><a href="./examples/with-glamorous">Glamorous</a></li>
-    <li><a href="./examples/with-cxs">Cxs</a></li><li><a href="./examples/with-aphrodite">Aphrodite</a></li>
-    <li><a href="./examples/with-fela">Fela</a></li>
+    <li><a href="/examples/with-styled-components">Styled components</a></li>
+    <li><a href="/examples/with-styletron">Styletron</a></li>
+    <li><a href="/examples/with-glamor">Glamor</a></li>
+    <li><a href="/examples/with-glamorous">Glamorous</a></li>
+    <li><a href="/examples/with-cxs">Cxs</a></li>
+    <li><a href="/examples/with-aphrodite">Aphrodite</a></li>
+    <li><a href="/examples/with-fela">Fela</a></li>
   </ul>
 </details>
 
@@ -232,8 +233,8 @@ _Note: Don't name the `static` directory anything else. The name is required and
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/head-elements">Head elements</a></li>
-    <li><a href="./examples/layout-component">Layout component</a></li>
+    <li><a href="/examples/head-elements">Head elements</a></li>
+    <li><a href="/examples/layout-component">Layout component</a></li>
   </ul>
 </details>
 
@@ -283,7 +284,7 @@ _Note: The contents of `<head>` get cleared upon unmounting the component, so ma
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/data-fetch">Data fetch</a></li>
+    <li><a href="/examples/data-fetch">Data fetch</a></li>
   </ul>
 </details>
 
@@ -359,7 +360,7 @@ export default Page
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/hello-world">Hello World</a></li>
+    <li><a href="/examples/hello-world">Hello World</a></li>
   </ul>
 </details>
 
@@ -402,7 +403,7 @@ To inject the `pathname`, `query` or `asPath` in your component, you can use [wi
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-url-object-routing">With URL Object Routing</a></li>
+    <li><a href="/examples/with-url-object-routing">With URL Object Routing</a></li>
   </ul>
 </details>
 
@@ -497,8 +498,8 @@ The default behaviour of `<Link>` is to scroll to the top of the page. When ther
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/using-router">Basic routing</a></li>
-    <li><a href="./examples/with-loading">With a page loading indicator</a></li>
+    <li><a href="/examples/using-router">Basic routing</a></li>
+    <li><a href="/examples/with-loading">With a page loading indicator</a></li>
   </ul>
 </details>
 
@@ -620,7 +621,7 @@ Router.events.on('routeChangeError', (err, url) => {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-shallow-routing">Shallow Routing</a></li>
+    <li><a href="/examples/with-shallow-routing">Shallow Routing</a></li>
   </ul>
 </details>
 
@@ -664,7 +665,7 @@ componentDidUpdate(prevProps) {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/using-with-router">Using the `withRouter` utility</a></li>
+    <li><a href="/examples/using-with-router">Using the `withRouter` utility</a></li>
   </ul>
 </details>
 
@@ -705,7 +706,7 @@ The above `router` object comes with an API similar to [`next/router`](#imperati
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-prefetching">Prefetching</a></li>
+    <li><a href="/examples/with-prefetching">Prefetching</a></li>
   </ul>
 </details>
 
@@ -799,12 +800,12 @@ export default withRouter(MyLink)
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/custom-server">Basic custom server</a></li>
-    <li><a href="./examples/custom-server-express">Express integration</a></li>
-    <li><a href="./examples/custom-server-hapi">Hapi integration</a></li>
-    <li><a href="./examples/custom-server-koa">Koa integration</a></li>
-    <li><a href="./examples/parameterized-routing">Parameterized routing</a></li>
-    <li><a href="./examples/ssr-caching">SSR caching</a></li>
+    <li><a href="/examples/custom-server">Basic custom server</a></li>
+    <li><a href="/examples/custom-server-express">Express integration</a></li>
+    <li><a href="/examples/custom-server-hapi">Hapi integration</a></li>
+    <li><a href="/examples/custom-server-koa">Koa integration</a></li>
+    <li><a href="/examples/parameterized-routing">Parameterized routing</a></li>
+    <li><a href="/examples/ssr-caching">SSR caching</a></li>
   </ul>
 </details>
 
@@ -934,7 +935,7 @@ app.prepare().then(() => {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-dynamic-import">With Dynamic Import</a></li>
+    <li><a href="/examples/with-dynamic-import">With Dynamic Import</a></li>
   </ul>
 </details>
 
@@ -1032,8 +1033,8 @@ export default () => <HelloBundle title="Dynamic Bundle" />
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-app-layout">Using `_app.js` for layout</a></li>
-    <li><a href="./examples/with-componentdidcatch">Using `_app.js` to override `componentDidCatch`</a></li>
+    <li><a href="/examples/with-app-layout">Using `_app.js` for layout</a></li>
+    <li><a href="/examples/with-componentdidcatch">Using `_app.js` to override `componentDidCatch`</a></li>
   </ul>
 </details>
 
@@ -1080,8 +1081,8 @@ export default class MyApp extends App {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-styled-components">Styled components custom document</a></li>
-    <li><a href="./examples/with-amp">Google AMP</a></li>
+    <li><a href="/examples/with-styled-components">Styled components custom document</a></li>
+    <li><a href="/examples/with-amp">Google AMP</a></li>
   </ul>
 </details>
 
@@ -1299,7 +1300,7 @@ module.exports = {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-webpack-bundle-analyzer">Custom webpack bundle analyzer</a></li>
+    <li><a href="/examples/with-webpack-bundle-analyzer">Custom webpack bundle analyzer</a></li>
   </ul>
 </details>
 
@@ -1386,7 +1387,7 @@ module.exports = {
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-custom-babel-config">Custom babel configuration</a></li>
+    <li><a href="/examples/with-custom-babel-config">Custom babel configuration</a></li>
   </ul>
 </details>
 
@@ -1527,7 +1528,7 @@ The [polyfills](https://github.com/zeit/next.js/tree/canary/examples/with-polyfi
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-static-export">Static export</a></li>
+    <li><a href="/examples/with-static-export">Static export</a></li>
   </ul>
 </details>
 
@@ -1655,7 +1656,7 @@ The `req` and `res` fields of the `context` object passed to `getInitialProps` a
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/with-zones">With Zones</a></li>
+    <li><a href="/examples/with-zones">With Zones</a></li>
   </ul>
 </details>
 
