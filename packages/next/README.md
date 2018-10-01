@@ -1089,7 +1089,7 @@ export default class MyApp extends App {
 
 - Is rendered on the server side
 - Is used to change the initial server side rendered document markup
-- Commonly used to implement server side rendering for css-in-js libraries like [styled-components](/../../examples/with-styled-components), [glamorous](/../../examples/with-glamorous) or [emotion](with-emotion). [styled-jsx](https://github.com/zeit/styled-jsx) is included with Next.js by default.
+- Commonly used to implement server side rendering for css-in-js libraries like [styled-components](/examples/with-styled-components), [glamorous](/examples/with-glamorous) or [emotion](/examples/with-emotion). [styled-jsx](https://github.com/zeit/styled-jsx) is included with Next.js by default.
 
 Pages in `Next.js` skip the definition of the surrounding document's markup. For example, you never include `<html>`, `<body>`, etc. To override that default behavior, you must create a file at `./pages/_document.js`, where you can extend the `Document` class:
 
@@ -1212,7 +1212,7 @@ module.exports = (phase, {defaultConfig}) => {
 }
 ```
 
-`phase` is the current context in which the configuration is loaded. You can see all phases here: [constants](/../../packages/next/lib/constants.js)
+`phase` is the current context in which the configuration is loaded. You can see all phases here: [constants](/packages/next/lib/constants.js)
 Phases can be imported from `next/constants`:
 
 ```js
@@ -1758,7 +1758,7 @@ Next.js bundles [styled-jsx](https://github.com/zeit/styled-jsx) supporting scop
 
 We track V8. Since V8 has wide support for ES6 and `async` and `await`, we transpile those. Since V8 doesn’t support class decorators, we don’t transpile those.
 
-See the  documentation about [customizing the babel config](#customizing-babel-config) and [next/preset](/../../build/babel/preset.js) for more information.
+See the  documentation about [customizing the babel config](#customizing-babel-config) and [next/preset](/packages/next/build/babel/preset.js) for more information.
 
 </details>
 
@@ -1805,7 +1805,7 @@ It’s up to you. `getInitialProps` is an `async` function (or a regular functio
 <details>
   <summary>Can I use it with GraphQL?</summary>
 
-Yes! Here's an example with [Apollo](/../../examples/with-apollo).
+Yes! Here's an example with [Apollo](/examples/with-apollo).
 
 </details>
 
@@ -1814,7 +1814,7 @@ Yes! Here's an example with [Apollo](/../../examples/with-apollo).
 <details>
 <summary>Can I use it with Redux?</summary>
 
-Yes! Here's an [example](/../../examples/with-redux)
+Yes! Here's an [example](/examples/with-redux)
 </details>
 
 <p></p>
@@ -1822,7 +1822,7 @@ Yes! Here's an [example](/../../examples/with-redux)
 <details>
 <summary>Can I use Next with my favorite Javascript library or toolkit?</summary>
 
-Since our first release we've had **many** example contributions, you can check them out in the [examples](/../../examples) directory
+Since our first release we've had **many** example contributions, you can check them out in the [examples](/examples) directory
 </details>
 
 <p></p>
