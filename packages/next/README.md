@@ -145,7 +145,7 @@ export default () => (
 <details>
   <summary><b>Examples</b></summary>
   <ul>
-    <li><a href="./examples/basic-css">Basic css</a></li>
+    <li><a href="/examples/basic-css">Basic css</a></li>
   </ul>
 </details>
 
